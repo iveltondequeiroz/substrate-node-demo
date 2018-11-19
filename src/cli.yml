@@ -1,0 +1,12 @@
+name: substrate-node-template
+author: "ivelton-queiroz"
+about: substrate-node-template
+args:
+  - log:
+      short: l
+      value_name: LOG_PATTERN
+      help: Sets a custom logging
+      takes_value: true
+subcommands:
+  - validator:
+      about: Run validator node
